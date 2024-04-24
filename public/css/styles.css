@@ -5,8 +5,18 @@
   box-sizing: border-box;
 }
 
-.tools {
-  text-align: right;
+#wrapper {
+  background-image: url('/images/site/checkerboard.jpg');
+  background-repeat: repeat;
+  position: relative;
+  z-index: -1;
+}
+
+#tools {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
 }
 
 nav {
@@ -38,6 +48,9 @@ li a:hover {
   background-color: #555;
 }
 
+.callToAction li {
+  display: block;
+}
 .outerUpgrade {
   color: black
 }
